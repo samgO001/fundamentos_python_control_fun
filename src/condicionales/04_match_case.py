@@ -4,7 +4,14 @@ Conceptos: coincidencia de patrones, case, comodín _
 Requiere Python 3.10 o superior
 """
 
+# Descripcion del archivo: ejemplos practicos del tema indicado.
+# Nota: cada bloque muestra una situacion concreta y su salida esperada.
+
 # Ejemplo 1: Clasificar frutas
+# Objetivo: Clasificar frutas.
+# Entrada: datos de ejemplo para Clasificar frutas.
+# Proceso: se evalua la condicion o se ejecuta el bloque correspondiente.
+# Salida: mensaje en consola segun el resultado del ejemplo.
 fruta = input("Introduce una fruta: ")
 match fruta:
     case "manzana":
@@ -17,6 +24,10 @@ match fruta:
         print("Fruta desconocida.")
 
 # Ejemplo 2: Coordenadas
+# Objetivo: Coordenadas.
+# Entrada: datos de ejemplo para Coordenadas.
+# Proceso: se evalua la condicion o se ejecuta el bloque correspondiente.
+# Salida: mensaje en consola segun el resultado del ejemplo.
 punto = (0, 0)
 match punto:
     case (0, 0):
@@ -29,6 +40,10 @@ match punto:
         print(f"El punto está en coordenadas x={x}, y={y}.")
 
 # Ejemplo 3: Roles de usuario
+# Objetivo: Roles de usuario.
+# Entrada: datos de ejemplo para Roles de usuario.
+# Proceso: se evalua la condicion o se ejecuta el bloque correspondiente.
+# Salida: mensaje en consola segun el resultado del ejemplo.
 usuario = {"nombre": "Ana", "rol": "admin"}
 match usuario:
     case {"rol": "admin"}:

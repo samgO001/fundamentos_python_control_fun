@@ -3,7 +3,14 @@ Ejercicio 5 – While avanzado
 Conceptos: bucle infinito, validación de entrada, eventos
 """
 
+# Descripcion del archivo: ejemplos practicos del tema indicado.
+# Nota: cada bloque muestra una situacion concreta y su salida esperada.
+
 # Ejemplo 1: Validación de entrada
+# Objetivo: Validación de entrada.
+# Entrada: datos de ejemplo para Validación de entrada.
+# Proceso: se evalua la condicion o se ejecuta el bloque correspondiente.
+# Salida: mensaje en consola segun el resultado del ejemplo.
 print("=== Validación de entrada ===")
 entrada = ""
 while not entrada.isdigit():
@@ -11,6 +18,10 @@ while not entrada.isdigit():
 print(f"Has introducido el número: {entrada}")
 
 # Ejemplo 2: Bucle infinito controlado
+# Objetivo: Bucle infinito controlado.
+# Entrada: datos de ejemplo para Bucle infinito controlado.
+# Proceso: se evalua la condicion o se ejecuta el bloque correspondiente.
+# Salida: mensaje en consola segun el resultado del ejemplo.
 print("\n Menú de opciones ")
 while True:
     print("\n1. Saludar")
